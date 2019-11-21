@@ -3,6 +3,9 @@
 # File Name: CastellinoAaron_SmashBrosYoutube_CA.py
 # Description: This Program searches specified videos from Youtube for Super Smash Bros
 
+#IMPORTANT NOTICE#
+#put your own API key for this program to work on line 156
+
 #import module for using Youtube Api
 from apiclient.discovery import build 
 from apiclient.errors import HttpError
@@ -150,7 +153,7 @@ class Youtube_Data(object): #Class which stores and handles connecting to youtub
         self.history = []
         
         #Specified version of Api and Api key
-        self.DEVELOPER_KEY = "AIzaSyDQCgtJPjwxDSTTEufY98erOSONeFekplE"
+        self.DEVELOPER_KEY = "INSERT YOU API KEY HERE" #enter your own API KEY
         self.YOUTUBE_API_SERVICE_NAME = "youtube"
         self.YOUTUBE_API_VERSION = "v3"
             
