@@ -1,5 +1,9 @@
 # Smash-Video-Finder
 Program which uses the Youtube API to find Super Smash Bros related videos
+####IMPORTANT#####
+input your own API KEY on line 156 of the file to ensure the program 
+works properly
+##################
 
 *****************************************************************************
 
@@ -29,6 +33,8 @@ Program Assumptions - Your Computer must have Python v3 installed
  		      Must have vlc media player. Must have a web
 		      browser.Must have the following python modules installed:
 		      google-api-python-client,pafy ,vlc ,wx. 
+			  Input your own API KEY on line 156 of the file to ensure 
+			  the program works properly.
 
 Features of Program - basic error handaling, Page System for search results 
 		      over 10, recursively removes previously watched videos,
